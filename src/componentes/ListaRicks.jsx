@@ -22,12 +22,13 @@ function ListaRicks() {
     return (
       <div>
           <h1>Lista Rick and Morty</h1>
-          <div className='container bg-dark'>
+          <div className='container '>
              <div className='row'>
              {
                   characters.map((character, indice) => {
                     
-                      return <div className='col-md-4 m-4'>
+                      return <div className='col-md-3 m-2'>
+                        
                         <Lista key={indice} {...character}/>
                     </div>
                   })

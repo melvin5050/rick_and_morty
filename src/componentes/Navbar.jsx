@@ -43,6 +43,7 @@ export default function Navbar(props) {
        
                 */}
                 <Route path='/' element={<Lista />}/>
+                <Route path='/formulario' element = {<Formulario/>}/>
               
             </Routes>
         </BrowserRouter>
